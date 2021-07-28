@@ -10,7 +10,6 @@ window.onload = () => {
   document.getElementById("btn").addEventListener("click", () => {
     document.getElementById("excuse").innerHTML = excuse();
   });
-  console.log("Hello Rigo from the console!");
 };
 
 let excuse = () => {
